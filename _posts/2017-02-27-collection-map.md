@@ -124,7 +124,7 @@ Java 在 Java5 版本提供了 ConcurrentHashMap。
 1. ConcurrentHashMap 是一个经常被使用的数据结构，相比于 Hashtable 以及Collections.synchronizedMap()，ConcurrentHashMap在线程安全的基础上提供了更好的写并发能力，但同时降低了对读一致性的要求。
 2. ConcurrentHashMap 引入了一个“分段锁”的概念，具体可以理解为把一个大的 Map 拆分成 N 个小的 Hashtable，根据 key.hashCode() 来决定把 key 放到哪个 Hashtable 中。
 可以提供相同的线程安全，但是相比 Hashtable 效率提升 N 倍，默认提升 16 倍。
-3. Hashtable 虽然性能上不如 ConcurrentHashMap，但并不能完全被取代，两者的迭代器的一致性不同的，Hashtable 的迭代器是强一致性的，而 ConcurrentHashMap 是弱一致的。 ConcurrentHashMap 的get()，clear()，iterator() 都是弱一致性的。
+3. Hashtable 虽然性能上不如 ConcurrentHashMap，但并不能完全被取代，两者的迭代器的一致性不同的，Hashtable 的迭代器是强一致性的，而 ConcurrentHashMap 是弱一致的。 ConcurrentHashMap 的 get()，clear()，iterator() 都是弱一致性的。
 
 ### Comparable 和 Comparator
 Comparable 和 Comparator 都是 Java 集合框架的成员。
