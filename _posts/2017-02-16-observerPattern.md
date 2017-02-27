@@ -201,7 +201,7 @@ public class ConcreteWeatherObserver implements java.util.Observer {
 * 命名建议， 模式有被称为发布-订阅模式，
     * 目标接口，建议目标接口后面添加Subject作为目标标示。
     * 观察者接口，接口后面添加Observes作为目标标示。
-** 观察者接口的更新方法，命名为update。
+    * 观察者接口的更新方法，命名为update。
 * 触发通知的时机，一般情况下是在完成状态维护后触发。
 * 通知的顺序，通知时，通知的顺序是不确定的，所以多个观察者之间的通知顺序应该是平行的，不应该有依赖关系。
 
