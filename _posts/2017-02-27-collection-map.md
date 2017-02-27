@@ -98,7 +98,7 @@ add() 操作以分摊的固定时间 运行，也就是说，添加 n 个元素�
 5.Map 接口的常用子类：HashMap 、 TreeMap 、 Hashtable 。
 6.Map 有个非常重要的子接口 ConcurrentMap。
 Map 接口 API 如下：
-![](/images/java/2017-02-27-map-api.png) 
+![](/images/posts/java/2017-02-27-map-api.png) 
 
 #### HashMap
 1. HashMap 是非线程安全的。
