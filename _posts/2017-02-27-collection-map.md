@@ -15,7 +15,7 @@ Java 集合主要可以分为以下 4 个部分：List列表、Set集合、Map�
 ![](/images/posts/java/2017-02-27-collection-map.png)
 
 
-# 正文
+
 由上图可知，Java 集合主要由两部分构成，Collection 和 Map。
 
 ## Collection
