@@ -12,7 +12,7 @@ Java 集合工具包的位置是 java.util.* 。
 Java 集合主要可以分为以下 4 个部分：List列表、Set集合、Map映射、工具类（Iterator 迭代器、Enumeration 枚举类、Arrays 和 Collections）。
 
 框架图(如下)：
-![](/images/java/2017-02-27-collection-map.png)
+![](/images/posts/java/2017-02-27-collection-map.png)
 
 
 # 正文
@@ -21,7 +21,7 @@ Java 集合主要可以分为以下 4 个部分：List列表、Set集合、Map�
 ## Collection
 Collection 接口是 List、Set、和 Queue 接口的父接口，定义了接口的基本操作，增、删、改、查。
 Collection 接口 API 如下：
-![](/images/java/2017-02-27-collection-api.png)
+![](/images/posts/java/2017-02-27-collection-api.png)
 
 ### List 
 1. List 是元素有序并且可以重复的集合，也被成为序列。
@@ -53,7 +53,7 @@ add() 操作以分摊的固定时间 运行，也就是说，添加 n 个元素�
 #### Stack
 1. Stack 是栈，它继承于Vector。它的特性是：先进后出(FILO, First In Last Out)。
 
-##### List 小结
+### List 小结
 如果涉及到“栈”、“队列”、“链表”等操作，应该考虑用 List，具体的选择哪个 List，根据下面的标准来取舍。
 1. 对于需要快速插入，删除元素，应该使用 LinkedList。
 2. 于需要快速随机访问元素，应该使用 ArrayList。
@@ -84,7 +84,7 @@ add() 操作以分摊的固定时间 运行，也就是说，添加 n 个元素�
 2. LinkedHashSet 在迭代访问 Set 中的全部元素时，性能比 HashSet 好，但是插入时性能稍微逊色于 HashSet。
 3. LinkedHashSet 也是非线程安全的。
 
-##### Set 小结
+### Set 小结
 1. TreeSet 是二差树实现的,TreeSet 中的数据是自动排好序的，不允许放入 null 值。 
 2. HashSet 是哈希表实现的,HashSet 中的数据是无序的，可以放入 null，但只能放入一个 null，两者中的值都不能重复，就如数据库中唯一约束。 
 3. HashSet 要求放入的对象必须实现 hashCode() 方法，放入的对象，是以 hashcode 码作为标识的，而具有相同内容的对象，hashcode 是一样，所以放入的内容不能重复。但是同一个类的对象可以放入不同的实例 。
