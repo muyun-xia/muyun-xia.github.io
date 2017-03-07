@@ -31,6 +31,7 @@ keywords: IDEA,IntelliJ
 | F4                   |查找变量来源|
 | Ctrl + Alt + F7      | 选中的字符查找工程出现的地方   |
 | Ctrl + Shift + O     | 弹出显示查找内容       |
+| Ctrl + Shift + R     |  开启全局查找窗口 |
 
 
 ####  自动代码
