@@ -84,3 +84,13 @@ keywords: IDEA,IntelliJ
 | ESC                  |  光标返回编辑框   |
 | Shift + ESC          | 光标返回编辑框,关闭无用的窗口 |
 | Ctrl + F4            | 关闭窗口  |
+
+#### DEBUG 调试
+
+| 快捷键               | 功能      |
+|:---------------------|:------------|
+|F7                    |Step Into 进入方法|
+|F8                    |Step Over 下一步  |
+|Shift + F8            |Step Out  跳出方法  |
+|F9                    |Resume 恢复程序运行|
+|Alt + F9              |运行到光标所在位置|
